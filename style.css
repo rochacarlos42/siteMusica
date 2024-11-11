@@ -1,0 +1,22 @@
+body {
+    background-color:rgb(241, 209, 149);
+}
+
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabeçalho-imagem {
+width: 200px;
+height: 250px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
