@@ -1,33 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos de corda</title>
+</head>
 <h1 class="corda">Instrumentos de corda</h1>
-<div class="cavaco">
-<div class="cavaco rozini">
-    
-    <img src="imagens/cavaco rozini.png">
-    <title>Cavaco rozini</title>
-    <p>Cavaco Acústico Rozini RC09ACN Estudante - Natural</p>
-    <p>R$ 999.00</p>
 
-    <button>
-        <form action="comprar">Comprar</form>
-    </button>
-    <button>
-        <form action="adicionar">Adicionar ao carrinho</form>
-    </button>
-    </div>
-    
-    <div class="cavaco-gianini">
-    
-        <img src="imagens/cavco gianini star.png">
-        <title>Cavaco Gianini</title>
-        <p>Cavaquinho Gianini - Elétrico</p>
-        <p>R$ 1150.00</p>
+<body>
 
-        <button>
-            <form action="comprar">Comprar</form>
-        </button>
-        <button>
-            <form action="adicionar">Adicionar ao carrinho</form>
-        </button>
+
+    <div class="cordas">
+        <div class="cavaco rozini">
+
+            <img src="imagens/cavaco rozini.png" height="450" width="380">
+            <title>Cavaco rozini</title>
+            <p>Cavaco Acústico Rozini RC09ACN Estudante - Natural</p>
+            <p>R$ 999.00</p>
+
+            <button>
+                <form action="comprar">Comprar</form>
+            </button>
+            <button>
+                <form action="adicionar">Adicionar ao carrinho</form>
+            </button>
+        </div>
+
+        <div class="cavaco-gianini">
+
+            <img src="imagens/cavco gianini star.png" height="450" width="380">
+            <title>Cavaco Gianini</title>
+            <p>Cavaquinho Gianini - Elétrico</p>
+            <p>R$ 1150.00</p>
+
+            <button>
+                <form action="comprar">Comprar</form>
+            </button>
+            <button>
+                <form action="adicionar">Adicionar ao carrinho</form>
+            </button>
+        </div>
+
+        <div>
+
+            <img src="imagens/banjo rozini.png" width="380" height="450">
+            <title>Banjo rozini</title>
+            <p>Banjo Rozini Estudante - Natural</p>
+            <p>R$ 899.00</p>
+
+            <button>
+                <form action="comprar">Comprar</form>
+            </button>
+            <button>
+                <form action="adicionar">Adicionar ao carrinho</form>
+            </button>
         </div>
     </div>
 
@@ -36,9 +63,17 @@
             padding: 15px;
             display: flex;
             justify-content: center;
-           color: brown;
-
-
+            color: brown;
         }
-    
+
+        .cordas {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
     </style>
+
+</body>
+
+</html>
