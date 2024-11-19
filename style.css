@@ -21,3 +21,10 @@ height: 250px;
     display: flex;
     gap: 32px;
 }
+.promocao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
