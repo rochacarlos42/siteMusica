@@ -21,10 +21,32 @@ height: 250px;
     display: flex;
     gap: 32px;
 }
+
+.promocaoDaSemana {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+
+}
 .promocao {
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     
+}
+.maisVendidos {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
 }
